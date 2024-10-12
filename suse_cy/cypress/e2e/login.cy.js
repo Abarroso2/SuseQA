@@ -2,7 +2,7 @@
 
 context('login ranch', () => {
   beforeEach(() => {
-    cy.visit('https://localhost/dashboard/auth/login')
+    cy.visit('add target url address')
   })
   it('execute login action', () => {
     cy.get('input#username').type('add user')
