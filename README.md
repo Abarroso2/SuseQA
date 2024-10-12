@@ -6,4 +6,6 @@ Cypress automation to cover the following scenarios
 
 Folder: SuseQA/suse_cy
 
+Add credentials and target address at /cypress/e2e/login.cy.js file
+
 command: npx cypress run --spec "cypress/e2e/login.cy.js"
